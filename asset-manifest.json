@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rpg_fighter/static/css/main.2e7919c8.chunk.css",
+    "main.js": "/rpg_fighter/static/js/main.60db6447.chunk.js",
+    "main.js.map": "/rpg_fighter/static/js/main.60db6447.chunk.js.map",
+    "runtime-main.js": "/rpg_fighter/static/js/runtime-main.644793cf.js",
+    "runtime-main.js.map": "/rpg_fighter/static/js/runtime-main.644793cf.js.map",
+    "static/js/2.dbc0e672.chunk.js": "/rpg_fighter/static/js/2.dbc0e672.chunk.js",
+    "static/js/2.dbc0e672.chunk.js.map": "/rpg_fighter/static/js/2.dbc0e672.chunk.js.map",
+    "static/js/3.c0e4b6a9.chunk.js": "/rpg_fighter/static/js/3.c0e4b6a9.chunk.js",
+    "static/js/3.c0e4b6a9.chunk.js.map": "/rpg_fighter/static/js/3.c0e4b6a9.chunk.js.map",
+    "index.html": "/rpg_fighter/index.html",
+    "static/css/main.2e7919c8.chunk.css.map": "/rpg_fighter/static/css/main.2e7919c8.chunk.css.map",
+    "static/js/2.dbc0e672.chunk.js.LICENSE.txt": "/rpg_fighter/static/js/2.dbc0e672.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.644793cf.js",
+    "static/js/2.dbc0e672.chunk.js",
+    "static/css/main.2e7919c8.chunk.css",
+    "static/js/main.60db6447.chunk.js"
+  ]
+}
