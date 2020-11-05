@@ -1,7 +1,7 @@
 {
   "name": "rpg_fighter",
   "version": "0.1.0",
-  "homepage": "https://demarcj.github.io/rpg_fighter/",
+  "homepage": "https://demarcj.github.io/rpg_fighter",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
