@@ -1,18 +1,16 @@
 import * as React from "react"
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'index.css';
 
 import { createStore, applyMiddleware, Store } from 'redux';
-import reducer  from './store/reducer';
+import { reducers }  from 'store/reducer';
 import { Provider } from 'react-redux';
 import thunk from "redux-thunk"
 
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from 'App';
+import reportWebVitals from 'reportWebVitals';
 
-const store: Store<ArticleState, ArticleAction> & {
-  dispatch: DispatchType
-} = createStore(reducer, applyMiddleware(thunk))
+const store = createStore(reducers, applyMiddleware(thunk));
 
 ReactDOM.render(
   <React.StrictMode>
