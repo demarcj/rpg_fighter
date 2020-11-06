@@ -1,0 +1,52 @@
+:root{
+  --transition:all 0.4s ease
+}
+
+.menu{
+  padding-left: 0;
+}
+
+.character_menu{
+  background: #2d2d2d;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px 0 0;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  min-width: 100px;
+  transition:var(--transition);
+  border: 3px solid darkred;
+}
+
+.character_menu:hover{
+  background:#0f0f0f 
+}
+
+.character_submenu{
+  position: absolute;
+  display: none;
+  left:-3px;
+  right:-3px;
+  top: 100%;
+  list-style: none;
+  background:#646464;
+  padding-left: 0;
+  border: 3px solid darkred;
+}
+
+.character_menu:hover > .character_submenu{
+  display: block;
+}
+
+.character_submenu_item{
+  padding: 10px;
+  transition:var(--transition);
+}
+
+.character_submenu_item:hover{
+  background: #464646;
+}

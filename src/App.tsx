@@ -9,7 +9,14 @@ export default function App() {
   const [mp, set_mp] = useState(10);
   return (
     <>
-      <Player name={"John"}/>
+      <div className="stage">
+        <div className="player_position">
+          <Player name={"Joestar"}/>
+        </div>
+        <div className="player_position">
+          <Player name={"Dio"}/>
+        </div>
+      </div>
     </>
   )
 };
